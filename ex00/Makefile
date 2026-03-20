@@ -10,7 +10,7 @@ OBJ_DIR = obj
 #                                SOURCE FILES                                  #
 ################################################################################
 
-SOURCE = Animal.cpp main.cpp Cat.cpp Dog.cpp
+SOURCE = Animal.cpp Cat.cpp Dog.cpp main.cpp 
 
 ################################################################################
 #                             COMPILER OPTIONS                                 #

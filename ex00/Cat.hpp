@@ -6,13 +6,13 @@
 class Cat : public Animal{
 	public :
 		Cat();
-		Cat(std::string type);
+		Cat(std::string const& type);
 		Cat(Cat const& src);
 		~Cat();
 
 		Cat&		operator=(Cat const& src);
 
 		void		makeSound(void);
-}
+	};
 
 #endif
