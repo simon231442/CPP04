@@ -2,19 +2,23 @@
 
 Animal::Animal() : Type_("animal")
 {
+	std::cout << "Animal Default constructor called" << std::endl;
 }
 
 Animal::Animal(std::string const& type) : Type_(type)
 {
+	std::cout << "Animal String constructor called" << std::endl;
 }
 
 Animal::Animal(Animal const& src)
 {
-	*this = src;
+	std::cout << "Animal Copy constructor called" << std::endl;
+        *this = src;
 }
 
 Animal::~Animal()
 {
+	std::cout << "Animal Destructor called" << std::endl;
 }
 
 Animal&		Animal::operator=(Animal const& src)

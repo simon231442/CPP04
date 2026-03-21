@@ -12,7 +12,7 @@ class Cat : public Animal{
 
 		Cat&		operator=(Cat const& src);
 
-		void		makeSound(void);
+		void		makeSound(void) const;
 	};
 
 #endif
