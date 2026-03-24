@@ -4,7 +4,7 @@
 #include "Animal.hpp"
 #include "Brain.hpp"
 
-class Dog : public Animal{
+class Dog : public Animal {
 		private:
 				Brain* brain;
         public :
@@ -16,6 +16,6 @@ class Dog : public Animal{
                 Dog&		operator=(Dog const& src);
                 
                 void		makeSound(void) const;
-};
+				};
 
 #endif

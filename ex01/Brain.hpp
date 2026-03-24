@@ -15,6 +15,6 @@ class Brain {
 		Brain&				operator=(Brain const& src);
 		void				setIdea(int index, std::string const& idea);
 		std::string const&	getIdea(int index) const;
-};
+		};
 
 #endif

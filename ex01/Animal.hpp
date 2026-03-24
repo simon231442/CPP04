@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-class Animal{
+class Animal {
 	protected:
 		std::string	Type_;
 	public :
